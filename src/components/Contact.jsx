@@ -73,7 +73,7 @@ const Contact = () => {
             we'll be in touch shortly.
           </p>
           <div className="flex md:flex-col flex-row gap-5 my-5 md:my-0">
-            <a href="" target="_blank" className="flex flex-row items-center  gap-2 md:gap-5 md:mt-10">
+            <a href="https://github.com/Bikramai" target="_blank" className="flex flex-row items-center  gap-2 md:gap-5 md:mt-10">
               <img
                 src={github}
                 alt="github"
@@ -81,21 +81,21 @@ const Contact = () => {
               />
               <p className="uppercase text-sm cursor-pointer"> Github</p>
             </a>
-            <a href="" target="_blank" className="flex flex-row items-center gap-2 md:gap-5 md:mt-5">
+            <a href="https://www.linkedin.com/in/bikramp/" target="_blank" className="flex flex-row items-center gap-2 md:gap-5 md:mt-5">
               <img
                 src={linkedin}
                 alt="github"
                 className="w-5 h-5 bg-head rounded-sm cursor-pointer"
               />
-              <p className="uppercase text-sm cursor-pointer"> LINKDIN</p>
+              <p className="uppercase text-sm cursor-pointer"> Linkedin</p>
             </a>
-            <a href="mailto:utsavvasoya99@gmail.com" target="_blank" className="flex flex-row items-center gap-2 md:gap-5 md:mt-5">
+            <a href="mailto:bikramphurumbo@gmail.com" target="_blank" className="flex flex-row items-center gap-2 md:gap-5 md:mt-5">
               <img
                 src={mail}
                 alt="github"
                 className="w-5 h-5 bg-head rounded-sm cursor-pointer "
               />
-              <p className="uppercase text-sm cursor-pointer"> EMAIl</p>
+              <p className="uppercase text-sm cursor-pointer"> Email</p>
             </a>
           </div>
         </div>
