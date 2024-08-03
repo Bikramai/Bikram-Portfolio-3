@@ -9,12 +9,16 @@ const About = () => {
     <>
       <h2 className={`${styles.sectionHeadText} text-[#00CEA8]`}>About Me.</h2>
 
-      <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Hi! I'm a newly minted Junior Full Stack Developer coding in TypeScript,
-        JavaScript, Python, SQL. Frameworks I've worked with: Flask, Django,
-        React, Node.js. Love working with REST APIs and PostgreSQL/Postman
-        databases on backend. I'm currently coding 8-10 hours a day and I love
-        every minute of it. I can't wait to find my first full time opportunity.
+      <p>
+      Entry level full stack software engineer, interested in crafting high-quality, 
+      clean code and continuing to expand my interest in algorithms, data structures, 
+      object-oriented code, and scalable design. Prior career informs my relatability, 
+      documentation, time management, attention to detail, delivery, responsiveness, 
+      and positivity to advance a software team. Junior Full Stack Developer coding in 
+      JavaScript, TypeScript, Python, SQL. Frameworks I've worked with: Flask, Django, React, 
+      Node.js. Love working with REST APIs and PostgreSQL databases on backend. I have a particular 
+      interest in translating UI designs into reality, AI generative tools to solve problems, clean, 
+      refactored code, testing and TDD, and would love to learn more about Cloud hosting.
       </p>
     </>
   );
