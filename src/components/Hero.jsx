@@ -14,9 +14,9 @@ const Hero = () => {
               <img className="h-[400px] w-auto" src={man} alt="man" />
             </div>
             <h1
-              className={`${styles.heroHeadText} text-white lg:absolute top-[415px] left-[420px] 2xl:left-[700px]`}
+              className={`${styles.heroHeadText} text-white sm:absolute top-[415px] left-[430px] 2xl:left-[700px]`}
             >
-              Bikram
+              Bikram Phurumbo
             </h1>
           </div>
           <div className="md:w-2/3 mt-6 mr-20 scale-125">
