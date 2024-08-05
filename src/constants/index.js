@@ -10,8 +10,9 @@ import {
   collage,
   degree,
   sertificate,
+  api,
 } from "../assets";
-import { JS, Mongo, Node, ReactJs } from "../assets/icon";
+import { JS, PostgreSQL, Mongo, Node, ReactJs, API, Flutter, Dart, Python, Bootstrap, SQL, Jquery, Sqlite, Ex6 } from "../assets/icon";
 import { python, flask } from "../assets/icons";
 import {
   eight,
@@ -125,7 +126,7 @@ const technologies = [
 
   {
     name: "PostgreSQL",
-    icon: post,
+    icon: Mongo,
   },
 ];
 
@@ -160,24 +161,27 @@ const projects = [
     name: "Book Store App",
     link: "https://printnyou.com/",
     description:
-      "Developed a web application named Wealth Wave allowing users to purchase monthly investment packages using cryptocurrency.",
+      "Developed a web application named Browse Books Users can explore a wide range of books with detailed information about each title, including descriptions, prices, and availability.",
     tags: [
       {
         name: "JavaScript",
         icon: JS,
       },
       {
-        name: "React",
-        icon: ReactJs,
-      },
-
-      {
-        name: "Node",
-        icon: Node,
+        name: "Python",
+        icon: Python,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "API",
+        icon: API,
+      },
+      {
+        name: "Django",
+        icon: dj,
+      },
+      {
+        name: "PostgreSQL",
+        icon: PostgreSQL,
       },
     ],
     image: firstImg,
@@ -187,7 +191,7 @@ const projects = [
     name: "Pokemon Game App",
     link: "https://weaghori.com/",
     description:
-      " Developed an innovative web application named 'Omni Group' for a construction com-pany specializing in apartment and land sales.",
+    "We built a Pokémon Battle web application that allows users to fetch Battle Data Users can input an opponent's name to fetch their Pokémon data and prepare for a battle.",
     tags: [
       {
         name: "JavaScript",
@@ -197,14 +201,18 @@ const projects = [
         name: "React",
         icon: ReactJs,
       },
+      {
+        name: "API",
+        icon: API,
+      },
 
       {
         name: "Node",
         icon: Node,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "PostgreSQL",
+        icon: PostgreSQL,
       },
     ],
     image: second,
@@ -214,15 +222,19 @@ const projects = [
     name: "Weather App",
     link: "https://alpino.store/",
     description:
-      " Developed a SaaS-based web application named 'Online Insight Accounting' for an accounting consultancy.",
+      " We developed a feature-rich Weather Application designed to provide users with comprehensive weather information.",
     tags: [
       {
-        name: "JavaScript",
-        icon: JS,
+        name: "Flutter",
+        icon: Flutter,
       },
       {
-        name: "React",
-        icon: ReactJs,
+        name: "Dart",
+        icon: Dart,
+      },
+      {
+        name: "API",
+        icon: API,
       },
 
       {
@@ -240,166 +252,192 @@ const projects = [
 
   {
     name: "Cleaning Services",
-    link: "https://alpino.store/",
+    link: "https://github.com/Bikramai/Cleaning-Service-Site",
     description:
-      "Developed 'Omi Serve,' an innovative web application for ordering general services online.",
+      "Omni Serve is an innovative web application designed For providing Cleaning Service Online , User can Order their Service Using Form Submission or Directly call to company.",
     tags: [
       {
         name: "JavaScript",
         icon: JS,
       },
       {
-        name: "React",
-        icon: ReactJs,
-      },
-
-      {
-        name: "Node",
-        icon: Node,
+        name: "Bootstrap",
+        icon: Bootstrap,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "Python",
+        icon: Python,
+      },
+      {
+        name: "Django",
+        icon: dj,
+      },
+      {
+        name: "PostgreSQL",
+        icon: PostgreSQL,
       },
     ],
     image: four,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bikramai/Cleaning-Service-Site",
   },
   {
     name: "Parkinson Ai",
-    link: "https://alpino.store/",
+    link: "https://github.com/Bikramai/Parkinsonai-app",
     description:
-      "Developed a personal portfolio website using React with JavaScript to showcase my projects, skills, and experience.",
+      "PARKINSON is an innovative web application designed Detect the neurological diseases symtoms by sending voice through the restfull api so it detact the diseases against your voice.",
     tags: [
       {
         name: "JavaScript",
         icon: JS,
       },
       {
-        name: "React",
-        icon: ReactJs,
+        name: "Bootstrap",
+        icon: Bootstrap,
       },
       {
-        name: "Node",
-        icon: Node,
+        name: "Python",
+        icon: Python,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "Django",
+        icon: dj,
+      },
+      {
+        name: "SQL",
+        icon: SQL,
+      },
+      {
+        name: "API",
+        icon: API,
       },
     ],
     image: five,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bikramai/Parkinsonai-app",
   },
   {
     name: "Accounting Service",
-    link: "https://weaghori.com/",
+    link: "https://github.com/Bikramai/Online-Accounting-Service",
     description:
-      " Developed an innovative web application named 'Omni Group' for a construction com-pany specializing in apartment and land sales.",
+      " Online Insight Accounting is platform enables users to manage their taxes through various subscription plans offered annually. Users can also book appointments for callbacks to receive more information before purchasing a subscription.",
     tags: [
       {
         name: "JavaScript",
         icon: JS,
       },
       {
-        name: "React",
-        icon: ReactJs,
-      },
-
-      {
-        name: "Node",
-        icon: Node,
+        name: "Bootstrap",
+        icon: Bootstrap,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "Python",
+        icon: Python,
+      },
+      {
+        name: "Django",
+        icon: dj,
+      },
+      {
+        name: "PostgreSQL",
+        icon: PostgreSQL,
       },
     ],
     image: six,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bikramai/Online-Accounting-Service",
   },
 
   {
-    name: "Omni Group",
-    link: "https://alpino.store/",
+    name: "Internship App",
+    link: "https://github.com/Bikramai/Django-Interships-App",
     description:
-      "Developed an advanced money transfer web application named 'Green Path' using Python and Django.",
+      "Internease a web based application to facilitate students to get interships and organizations to get best internies.",
     tags: [
       {
         name: "JavaScript",
         icon: JS,
       },
       {
-        name: "React",
-        icon: ReactJs,
-      },
-
-      {
-        name: "Node",
-        icon: Node,
+        name: "Jquery",
+        icon: Jquery,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "Python",
+        icon: Python,
+      },
+      {
+        name: "Django",
+        icon: dj,
+      },
+      {
+        name: "PostgreSQL",
+        icon: PostgreSQL,
       },
     ],
     image: seven,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bikramai/Django-Interships-App",
   },
-
   {
     name: "Jokes App",
-    link: "https://printnyou.com/",
+    link: "https://github.com/Bikramai/Node.js-Jokes-App",
     description:
-      "Developed a web application named Wealth Wave allowing users to purchase monthly investment packages using cryptocurrency.",
+      "Developed a web application named Jokes Application is single page, less and smart code application developed to make people smile on each click.",
     tags: [
       {
         name: "JavaScript",
         icon: JS,
       },
       {
-        name: "React",
-        icon: ReactJs,
+        name: "Jquery",
+        icon: Jquery,
       },
-
+      {
+        name: "Ex6",
+        icon: Ex6,
+      },
       {
         name: "Node",
         icon: Node,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "SQlite3",
+        icon: Sqlite,
       },
     ],
     image: eight,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bikramai/Node.js-Jokes-App",
   },
   {
-    name: "Online Insight Accounting",
-    link: "https://alpino.store/",
+    name: "Online Accounting",
+    link: "https://github.com/Bikramai/Online-Accounting-website",
     description:
-      " Developed a SaaS-based web application named 'Online Insight Accounting' for an accounting consultancy.",
+      " This website serves as a comprehensive platform showcasing available apartments, their prices, images, location on Google Maps, and detailed project information.",
     tags: [
       {
         name: "JavaScript",
         icon: JS,
       },
       {
-        name: "React",
-        icon: ReactJs,
-      },
-
-      {
-        name: "Node",
-        icon: Node,
+        name: "Bootstrap",
+        icon: Bootstrap,
       },
       {
-        name: "MongoBD",
-        icon: Mongo,
+        name: "Python",
+        icon: Python,
+      },
+      {
+        name: "Django",
+        icon: dj,
+      },
+      {
+        name: "API",
+        icon: API,
+      },
+      {
+        name: "PostgreSQL",
+        icon: PostgreSQL,
       },
     ],
     image: nine,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bikramai/Online-Accounting-website",
   },
 ];
 
