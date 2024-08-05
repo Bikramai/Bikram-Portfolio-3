@@ -14,10 +14,13 @@ import {
 import { JS, Mongo, Node, ReactJs } from "../assets/icon";
 import { python, flask } from "../assets/icons";
 import {
+  eight,
   firstImg,
   five,
   four,
+  nine,
   second,
+  seven,
   six,
   thirdImg,
 } from "../assets/portfolio";
@@ -154,7 +157,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Wealth Wave",
+    name: "Book Store App",
     link: "https://printnyou.com/",
     description:
       "Developed a web application named Wealth Wave allowing users to purchase monthly investment packages using cryptocurrency.",
@@ -181,7 +184,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Omni Group",
+    name: "Pokemon Game App",
     link: "https://weaghori.com/",
     description:
       " Developed an innovative web application named 'Omni Group' for a construction com-pany specializing in apartment and land sales.",
@@ -208,7 +211,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Online Insight Accounting",
+    name: "Weather App",
     link: "https://alpino.store/",
     description:
       " Developed a SaaS-based web application named 'Online Insight Accounting' for an accounting consultancy.",
@@ -236,7 +239,7 @@ const projects = [
   },
 
   {
-    name: "Omi Serve",
+    name: "Cleaning Services",
     link: "https://alpino.store/",
     description:
       "Developed 'Omi Serve,' an innovative web application for ordering general services online.",
@@ -263,7 +266,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Omi Serve",
+    name: "Parkinson Ai",
     link: "https://alpino.store/",
     description:
       "Developed a personal portfolio website using React with JavaScript to showcase my projects, skills, and experience.",
@@ -289,38 +292,10 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Omni Group",
+    name: "Accounting Service",
     link: "https://weaghori.com/",
     description:
       " Developed an innovative web application named 'Omni Group' for a construction com-pany specializing in apartment and land sales.",
-    tags: [
-      {
-        name: "JavaScript",
-        icon: JS,
-      },
-      {
-        name: "React",
-        icon: ReactJs,
-      },
-
-      {
-        name: "Node",
-        icon: Node,
-      },
-      {
-        name: "MongoBD",
-        icon: Mongo,
-      },
-    ],
-    image: second,
-    source_code_link: "https://github.com/",
-  },
-
-  {
-    name: "Green Path",
-    link: "https://alpino.store/",
-    description:
-      "Developed an advanced money transfer web application named 'Green Path' using Python and Django.",
     tags: [
       {
         name: "JavaScript",
@@ -345,7 +320,35 @@ const projects = [
   },
 
   {
-    name: "Wealth Wave",
+    name: "Omni Group",
+    link: "https://alpino.store/",
+    description:
+      "Developed an advanced money transfer web application named 'Green Path' using Python and Django.",
+    tags: [
+      {
+        name: "JavaScript",
+        icon: JS,
+      },
+      {
+        name: "React",
+        icon: ReactJs,
+      },
+
+      {
+        name: "Node",
+        icon: Node,
+      },
+      {
+        name: "MongoBD",
+        icon: Mongo,
+      },
+    ],
+    image: seven,
+    source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Jokes App",
     link: "https://printnyou.com/",
     description:
       "Developed a web application named Wealth Wave allowing users to purchase monthly investment packages using cryptocurrency.",
@@ -368,7 +371,7 @@ const projects = [
         icon: Mongo,
       },
     ],
-    image: firstImg,
+    image: eight,
     source_code_link: "https://github.com/",
   },
   {
@@ -395,7 +398,7 @@ const projects = [
         icon: Mongo,
       },
     ],
-    image: thirdImg,
+    image: nine,
     source_code_link: "https://github.com/",
   },
 ];
