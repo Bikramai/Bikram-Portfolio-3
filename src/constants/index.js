@@ -168,12 +168,16 @@ const projects = [
         icon: JS,
       },
       {
-        name: "Python",
-        icon: Python,
+        name: "Bootstrap",
+        icon: Bootstrap,
       },
       {
         name: "API",
         icon: API,
+      },
+      {
+        name: "Python",
+        icon: Python,
       },
       {
         name: "Django",
