@@ -40,6 +40,10 @@ import {
 } from "../assets/technology";
 export const navLinks = [
   {
+    id: "home",
+    title: "Home",
+  },
+  {
     id: "about",
     title: "About",
   },

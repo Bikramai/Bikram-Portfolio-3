@@ -14,7 +14,7 @@ const Hero = () => {
               <img className="h-[400px] w-auto" src={man} alt="man" />
             </div>
             <h1
-              className={`${styles.heroHeadText} text-white sm:absolute top-[415px] left-[430px] 2xl:left-[700px]`}
+              className={`${styles.heroHeadText} text-white sm:absolute top-[415px] left-[440px] 2xl:left-[700px]`}
             >
               Bikram Phurumbo
             </h1>

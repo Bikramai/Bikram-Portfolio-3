@@ -10,7 +10,7 @@ const About = () => {
       <h2 className={`${styles.sectionHeadText} text-[#00CEA8]`}>About Me.</h2>
 
       <p>
-      Junior full stack software engineer, interested in crafting high-quality, 
+      I'm a full stack software engineer, interested in crafting high-quality, 
       clean code and continuing to expand my interest in algorithms, data structures, 
       object-oriented code, and scalable design. Prior career informs my relatability, 
       documentation, time management, attention to detail, delivery, responsiveness, 

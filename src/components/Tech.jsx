@@ -33,64 +33,64 @@ const Tech = () => {
   );
   return (
     <>
-      <h2 className={`${styles.sectionHeadText} text-[#00CEA8] mt-20 md:mt-0`}>
+      {/* <h2 className={`${styles.sectionHeadText} text-[#00CEA8] mt-20 md:mt-0`}>
         My Experience
-      </h2>
-      <section className="text-white py-16 ">
-        <div className="container mx-auto md:px-4">
-          <div className="relative bg-[#151030] px-6 pt-6 pb-2 border rounded-xl ">
-            <div
+      </h2> */}
+      {/* <section className="text-white py-16 "> */}
+        {/* <div className="container mx-auto md:px-4"> */}
+          {/* <div className="relative bg-[#151030] px-6 pt-6 pb-2 border rounded-xl "> */}
+            {/* <div
               className=" cursor-pointer lg:text-2xl md:text-xl text-sm mb-4 font-semibold text-head flex flex-row justify-between"
-            >
-              <h3>Freelance, Full Stack Software Engineer </h3>
-              <h3 className="">Jan 2023 - Present</h3>
-            </div>
-            <p className="mt-2 lg:text-lg md:text-sm text-xs">
+            > */}
+              {/* <h3>Freelance, Full Stack Software Engineer </h3>
+              <h3 className="">Jan 2023 - Present</h3> */}
+            {/* </div> */}
+            {/* <p className="mt-2 lg:text-lg md:text-sm text-xs">
               Technologies: Python, JavaScript, TypeScript, React, Node.js,
               Tailwind CSS
-            </p>
-            {open1 && (
+            </p> */}
+            {/* {open1 && ( */}
               <>
-                <p className="mt-5  lg:text-lg md:text-sm text-xs">
+                {/* <p className="mt-5  lg:text-lg md:text-sm text-xs">
                   Parkinson Ai -Full Stack Web development
-                </p>
-                <p className=" lg:text-lg md:text-sm text-xs">
+                </p> */}
+                {/* <p className=" lg:text-lg md:text-sm text-xs">
                   Technologies: Frontend: HTML5, CSS3, Bootstrap, JavaScript
                   (ES6), Backend: Python, Django, Database: SQL, Speech
                   Recognition: Web Speech API or voice, RESTful APIs: for
                   communication between frontend and backend, Authentication:
                   Web Tokens Authentication for secure access
-                </p>
-                <ul className=" space-y-2 list-disc list-inside  lg:text-lg md:text-sm text-xs">
-                  <li className="">
+                </p> */}
+                {/* <ul className=" space-y-2 list-disc list-inside  lg:text-lg md:text-sm text-xs"> */}
+                  {/* <li className="">
                     Developed an innovative web application named "PARKINSON"
                     that uses voice input through a RESTful API to detect
                     symptoms of neurological diseases.
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     Implemented a RESTful APIs for Interaction with ai model for
                     capturing and processing voice samples from users.
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     Created a backend using Python with Django to handle voice
                     data, analyze symptoms, and provide diagnostic feedback.
-                  </li>
-                </ul>
+                  </li> */}
+                {/* </ul> */}
 
-                <p className="md:mt-8 mt-4 lg:text-lg md:text-sm text-xs">
+                {/* <p className="md:mt-8 mt-4 lg:text-lg md:text-sm text-xs">
                   Cleaning Services Solution- Full Stack Web development
-                </p>
-                <p className=" lg:text-lg md:text-sm text-xs ">
+                </p> */}
+                {/* <p className=" lg:text-lg md:text-sm text-xs ">
                   Backend Framework: Django (Python), Frontend: HTML5, CSS3,
                   JavaScript (ES6), Frontend Framework: Bootstrap, Database:
                   PostgreSQL (or any other supported by Django)
-                </p>
+                </p> */}
                 <ul className=" space-y-2 list-disc list-inside lg:text-lg md:text-sm text-xs">
-                  <li>
+                  {/* <li>
                     Developed "Omi Serve," an innovative web application for
                     ordering general services online.
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     Implemented a backend using Django, facilitating service
                     order management and user interaction.
                   </li>
@@ -98,9 +98,9 @@ const Tech = () => {
                     Designed a frontend with HTML, CSS, JavaScript, and
                     Bootstrap to create a responsive and user- friendly
                     interface for service ordering.
-                  </li>
+                  </li> */}
                 </ul>
-                <p className="md:mt-10 mt-5 lg:text-lg md:text-sm text-xs">
+                {/* <p className="md:mt-10 mt-5 lg:text-lg md:text-sm text-xs">
                   Omni Group-
                 </p>
                 <p className="lg:text-lg md:text-sm text-xs">
@@ -108,30 +108,30 @@ const Tech = () => {
                   Bootstrap for responsive design, Mapping: Google Maps API for
                   property location visualization, Backend: Python (Django
                   framework)
-                </p>
-                <p className="lg:text-lg md:text-sm text-xs">
+                </p> */}
+                {/* <p className="lg:text-lg md:text-sm text-xs">
                   Database: PostgreSQL for data storage
-                </p>
-                <ul className=" space-y-2 list-disc list-inside lg:text-lg md:text-sm text-xs">
-                  <li>
+                </p> */}
+                {/* <ul className=" space-y-2 list-disc list-inside lg:text-lg md:text-sm text-xs"> */}
+                  {/* <li>
                     Developed an innovative web application named "Omni Group"
                     for a construction company specializing in apartment and
                     land sales.
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     Implemented a frontend using HTML, CSS, JavaScript, and
                     Bootstrap to showcase available properties with detailed
                     descriptions, images, and pricing.
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     Built a backend system with Django to manage property data,
                     including integration with Google Maps API for location
                     mapping and displaying building plans.
-                  </li>
-                </ul>
+                  </li> */}
+                {/* </ul> */}
               </>
-            )}
-            <div className="grid grid-cols-6 gap-3">
+            {/* )} */}
+            {/* <div className="grid grid-cols-6 gap-3">
               <a href="" target="_blank" className="relative">
                 <img
                   src={first}
@@ -185,18 +185,19 @@ const Tech = () => {
                 />
               </a>
 
-            </div>
-            <div onClick={() => {
+            </div> */}
+            {/* <div onClick={() => {
                 setOpen1(!open1);
               }} className=" flex cursor-pointer flex-col items-center justify-center mt-5">
                 {open1 && 
               <img src="/icons/up.svg" className="h-10 hover:h-12 duration-300" alt="" />}
               {!open1 && 
               <img src="/icons/down.svg" className="h-7 hover:h-9 duration-300" alt="" />}
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
+
           {/* second */}
-          <div className="relative bg-[#151030] p-6 border rounded-xl my-5 text-lg">
+          {/* <div className="relative bg-[#151030] p-6 border rounded-xl my-5 text-lg">
             <div
               className=" lg:text-2xl md:text-xl text-sm mb-4 font-semibold text-head flex flex-row justify-between"
             >
@@ -341,10 +342,10 @@ const Tech = () => {
               {!open2 && 
               <img src="/icons/down.svg" className="h-7 hover:h-9 duration-300" alt="" />}
             </div>
-          </div>
+          </div> */}
 
           {/* third  */}
-          <div className="relative bg-[#151030] p-6 border rounded-xl my-5 text-lg">
+          {/* <div className="relative bg-[#151030] p-6 border rounded-xl my-5 text-lg">
             <div
               className="cursor-pointer lg:text-2xl md:text-xl text-sm mb-4 font-semibold text-head flex flex-row justify-between"
             >
@@ -415,19 +416,19 @@ const Tech = () => {
               {!open3 && 
               <img src="/icons/down.svg" className="h-7 hover:h-9 duration-300" alt="" />}
             </div>
-          </div>
+          </div> */}
 
           {/* four */}
-          <div className="relative bg-[#151030] p-6 border rounded-xl my-5 text-lg">
-            <div
+          {/* <div className="relative bg-[#151030] p-6 border rounded-xl my-5 text-lg"> */}
+            {/* <div
               className="cursor-pointer lg:text-2xl md:text-xl text-sm mb-4 font-semibold text-head flex flex-row justify-between"
             >
               <h3>Desktop Support Technician - Regency Technologies </h3>
               <h3 className="">Jan 2018 - Dec 2019</h3>
-            </div>
-            {open4 && (
+            </div> */}
+            {/* {open4 && ( */}
               <>
-                <ul className=" list-disc list-inside lg:text-lg md:text-sm text-xs">
+                {/* <ul className=" list-disc list-inside lg:text-lg md:text-sm text-xs">
                   <li>
                     I provided troubleshooting and repairing of systems with
                     hardware, applications, OS, and network problems
@@ -455,23 +456,23 @@ const Tech = () => {
                     Resolved various minor general and internet issues for
                     non-technical customers with phone connections.
                   </li>
-                </ul>
+                </ul> */}
               </>
-            )}
-            <div onClick={() => {
+            {/* )} */}
+            {/* <div onClick={() => {
                 setOpen4(!open4);
               }} className=" flex cursor-pointer flex-col items-center justify-center mt-5">
                 {open4 && 
               <img src="/icons/up.svg" className="h-10 hover:h-12 duration-300" alt="" />}
               {!open4 && 
               <img src="/icons/down.svg" className="h-7 hover:h-9 duration-300" alt="" />}
-            </div>
-          </div>
-        </div>
-      </section>
+            </div> */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </section> */}
 
       {/* tech skllill */}
-      <h2 className={`${styles.sectionHeadText} text-[#00CEA8]`}>
+      {/* <h2 className={`${styles.sectionHeadText} text-[#00CEA8]`}>
         Tech Skills
       </h2>
       <div className="flex flex-row flex-wrap justify-center gap-10 ">
@@ -493,16 +494,16 @@ const Tech = () => {
       </div>
 
       {/*  ediucation */}
-      <h2 className={`${styles.sectionHeadText} text-[#00CEA8] mt-20`}>
+      {/* <h2 className={`${styles.sectionHeadText} text-[#00CEA8] mt-20`}>
         Education
       </h2>
       <div className="mt-5 grid grid-cols-3 ">
         {services?.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
-};
+};   
 
 export default SectionWrapper(Tech, "");
